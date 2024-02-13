@@ -17,3 +17,4 @@ EXPOSE 80
 # arreglar la carpeta para que salga el juego dentro de html
 # docker build -t nombreImagen .
 # docker run -d --rm -p 80:80 nombreImagen
+# test de docker.dev
