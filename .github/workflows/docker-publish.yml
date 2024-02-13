@@ -30,7 +30,6 @@ jobs:
 
       # Instala una utilidad para 'Firmar' la imagen y para garantizar que nadie, excepto tu, ha publicado/modificado la imagen
       #- name: Install cosign
-      #if: github.event_name != 'pull_request'
       # uses: sigstore/cosign-installer@6e04d228eb30da1757ee4e1dd75a0ec73a653e06 #v3.1.1
       #  with:
       #    cosign-release: 'v2.1.1'
